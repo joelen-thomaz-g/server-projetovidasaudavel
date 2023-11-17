@@ -6,7 +6,6 @@ class Contato extends Model {
             {
                 nome: Sequelize.STRING,
                 email: Sequelize.STRING,
-                telefone: Sequelize.STRING,
                 mensagem: Sequelize.TEXT,
             }, 
             { 

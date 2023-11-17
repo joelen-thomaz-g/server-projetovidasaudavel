@@ -19,10 +19,6 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      telefone: {
-        type: Sequelize.STRING,
-        allowNull: false,
-      },
       mensagem: {
         type: Sequelize.TEXT,
         allowNull: false,

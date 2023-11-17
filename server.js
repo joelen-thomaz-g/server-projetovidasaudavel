@@ -1,7 +1,6 @@
 const express = require('express')
 const cors = require('cors')
 
-const {Contato} = require('./src/models/Contato')
 const { routes } = require('./src/routes')
 
 require('dotenv/config')
