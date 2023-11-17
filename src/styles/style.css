@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  width: 50%;
+}
+
+form {
+  width: 50%;
+  background-color: rgb(149, 211, 149);
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+.form-control {
+  width: 100%;
+  float: right;
+}
+
+.button {
+  background-color: #3CACE1;
+}
+
+.banner {
+  width: 50%;
+}

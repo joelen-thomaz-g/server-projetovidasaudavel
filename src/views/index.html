@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="http://localhost:3333/public/styles/style.css" />
+
+    <title>Hot Site</title>
+  </head>
+
+  <body>
+    <h1>Iniciativa Saúde da Cidade</h1>
+    <p>
+      Texto sobre vida saudável: Lorem, ipsum dolor sit amet consectetur
+      adipisicing elit. Voluptates quos omnis expedita reiciendis molestias
+      enim, quod cum tempora repellendus, neque corporis blanditiis laboriosam
+      nemo recusandae voluptatum dolorem autem, tempore in.
+    </p>
+    <br />
+    <p>
+      Texto sobre vida saudável: Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Corporis placeat natus molestiae mollitia asperiores
+      maiores laboriosam recusandae tempore sed distinctio minima, consequuntur
+      alias iusto libero, suscipit voluptates perferendis, modi dicta.
+    </p>
+
+    <br />
+    <form>
+        <h2>Fique em contato!</h2>
+        <p>Nos mande uma mensagem e fique por dentro de nossos eventos</p>
+        <form method="post" action="http://localhost:3333/contato">
+        <div class="form-group">
+        <label for="exampleFormControlInput1">Nome:</label>
+        <input type="nome" class="form-control" id="contato-nome">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Email:</label>
+        <input type="email" class="form-control" id ="contato-email">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea">Mensagem (opcional):</label>
+        <textarea class="form-control" id ="contato-mensagem" rows="4"></textarea>
+      </div>
+      <button id="sendButton" type="button" class="button">Enviar</button>
+    </form>
+    
+    <img class="banner" src="./assets/saude.jpg">
+    <br />
+
+    <div class="container">
+    </div>
+
+    <section class="gallery">
+      <figure class="item">
+      <div>
+        <a href=""><img src="./assets/agenda.jpg" class="avatar" width="400"></a>
+      </div>
+      <div>
+      <a href=""><img src="./assets/vidasaudavel.jpg" class="avatar" width="600"></a>
+    </div>
+    <div>
+      <a href=""><img src="./assets/parceiros.jpg" class="avatar" width="400"></a>
+    </div>
+
+    <footer>&copy 2020 - Hotsite</footer>
+
+    <script
+      src="http://localhost:3333/js/main.js"></script>
+    
+  </body>
+</html>
